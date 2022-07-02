@@ -1,2 +1,12 @@
 server:
-  port: 9999
+  port: 8090
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: employeeModule
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/**
+
