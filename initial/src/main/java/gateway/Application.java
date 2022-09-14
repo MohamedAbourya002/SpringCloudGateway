@@ -10,6 +10,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		        System.out.println("welcome pull 1");
 				        System.out.println("welcome pull 2");
+		System.out.println("welcome push 1");
 
 
 	}
