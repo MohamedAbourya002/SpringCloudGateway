@@ -9,6 +9,8 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 		        System.out.println("welcome pull 1");
+				        System.out.println("welcome pull 2");
+
 
 	}
 
